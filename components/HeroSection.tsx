@@ -2,6 +2,8 @@ import Link from 'next/link'
 import React from 'react'
 import Tools from './Tools'
 import Projects from './Projects'
+import Footer from './Footer'
+
 
 const HeroSection = () => {
   return (
@@ -47,6 +49,9 @@ const HeroSection = () => {
         <Tools/>
         <div className='gap-5 grid sm:grid-cols-1 md:grid-cols-3'>
           <Projects/>
+        </div>
+        <div>
+         <Footer/>
         </div>
         </>
    

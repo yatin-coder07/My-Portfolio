@@ -6,7 +6,7 @@ const Projects = () => {
     <>
     <section className="project-container ">
 
-        <div className="text-4xl font-medium">
+        <div className="text-4xl font-medium m-3">
             <h1>My Project <span className='text-[#B4B4B4]'>Highlights</span></h1>
         </div>
 
