@@ -4,16 +4,17 @@ const Tools = () => {
   return (
     <>
 
-    <div className="skills-container">
-        <h1 className='font-medium text-4xl'>
+    <div id='skills' className="skills-container">
+        <h1 className='font-medium  text-2xl sm:text-4xl'>
             My Skills
         </h1>
-        <p className='font-medium text-[20px]'>
+        <p className='font-medium text-[15
+        px] sm:text-[20px]'>
           The powerfull tools and technologies I use <br />
           to create high-performing and exceptional websites.   
         </p>
     </div>
-     <section className='grid sm:grid-cols-3 grid-cols-1 sm:ml-10 sm:mt-20 sm:mb-20 gap-4 md:grid-cols-4'>
+     <section  className='grid sm:grid-cols-3 grid-cols-1 sm:ml-10 sm:mt-20 sm:mb-20 gap-4 md:grid-cols-4'>
 
         
 

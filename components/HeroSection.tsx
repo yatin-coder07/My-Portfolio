@@ -8,10 +8,10 @@ import Footer from './Footer'
 const HeroSection = () => {
   return (
   <>
-    <section className='hero-container'>
+    <section id='home' className='hero-container'>
        <div className='flex flex-row'>
        <div className="hero-description">
-          <div className='description-text'>
+          <div  className='description-text'>
             <div><h1>Aspiring</h1></div>
             <div><h2>Full-Stack</h2></div>
             <div><h3 className='text-[#909090]'>
@@ -31,8 +31,8 @@ const HeroSection = () => {
             <img src={"/pfp.jpg"} alt="" className='rounded-full' />
         </div>
     </section>
-    <section className=' sm:mt-50 mt-10'>
-        <div className='p-5 bg-linear-to-r from-[#D4D4D4] to-[#909090] sm:m-10 m-5 md:text-[15px] md:font-medium rounded-2xl dark:text-black font-medium'>
+    <section id='about' className=' sm:mt-50 mt-10'>
+        <div className='p-5 bg-linear-to-r from-[#D4D4D4] to-[#909090]   sm:m-10 m-10 md:text-[15px] md:font-medium rounded-2xl dark:text-black font-medium '>
            <p>
             Welcome! I am Yatin a Web Developement enthusiast, With a liking to <br />
             creating visually stunning and highly functional websites. <br />
@@ -47,7 +47,8 @@ const HeroSection = () => {
         </section>
 
         <Tools/>
-        <div className='gap-5 grid sm:grid-cols-1 md:grid-cols-3'>
+        <div className='gap-5 
+        mt-10 mb-10'>
           <Projects/>
         </div>
         <div>

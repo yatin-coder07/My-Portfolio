@@ -4,14 +4,15 @@ import React from 'react'
 const Projects = () => {
   return (
     <>
-    <section className="project-container ">
-
-        <div className="text-4xl font-medium m-3">
+     <div className="text-4xl font-medium mt-30 mb-20 flex justify-center items-center ">
             <h1>My Project <span className='text-[#B4B4B4]'>Highlights</span></h1>
         </div>
+    <section id='projects' className="project-container ">
 
        
-       <div className="project  ">
+
+       
+       <div className="project ">
             <div className="project-image ">
                 <img src={"/dogSite.jpg"} alt="" className='sm:h-65 sm:w-150 rounded-2xl' />
             </div>
@@ -26,7 +27,7 @@ const Projects = () => {
                 </div>
              </div>
              
-                <Link href={"/"} className='view-btn-container'>
+                <Link href={"https://pawsitive-alpha.vercel.app/"} className='view-btn-container'>
                   <button className='view-btn'>View</button>
                 </Link>
              
@@ -48,7 +49,7 @@ const Projects = () => {
                 </div>
              </div>
              
-                <Link href={"/"} className='view-btn-container'>
+                <Link href={"https://cryp-check.vercel.app/"} className='view-btn-container'>
                   <button className='view-btn'>View</button>
                 </Link>
              
