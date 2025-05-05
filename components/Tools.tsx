@@ -14,22 +14,22 @@ const Tools = () => {
           to create high-performing and exceptional websites.   
         </p>
     </div>
-     <section  className='grid sm:grid-cols-3 grid-cols-1 sm:ml-10 sm:mt-20 sm:mb-20 gap-4 md:grid-cols-4'>
+     <section  className='grid sm:grid-cols-3 grid-cols-1 sm:mt-20 sm:mb-20 gap-4 md:grid-cols-4'>
 
         
 
 <div className="tools-container">
    <div className="tool">
        <div className="logo ">
-           <img src={"/html.png"} alt="" />
+           <img src={"/typeScript.png"} alt="" />
        </div>
 
        <div className="tool-desc-container">
            <div>
-               <h1 className='font-medium'>HTML</h1>
+               <h1 className='font-medium'>Type Script</h1>
            </div>
            <div className='text-[15px]'>
-               <p>Components</p>
+               <p>Interactivity</p>
            </div>
 
        </div>
@@ -127,7 +127,7 @@ const Tools = () => {
 
        <div className="tool-desc-container">
            <div>
-               <h1 className='font-medium'>Next.sjs 15</h1>
+               <h1 className='font-medium'>Next.js 15</h1>
            </div>
            <div className='text-[15px]'>
                <p>Framework</p>

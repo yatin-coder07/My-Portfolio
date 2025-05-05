@@ -129,8 +129,8 @@
     @apply flex gap-4 justify-center items-center
   }
   .hero-container{
-    @apply sm:flex sm:flex-row justify-center items-center sm:mt-30 mt-20 flex flex-col gap-6   
-    slide-in-from-bottom-10
+    @apply sm:flex sm:flex-row justify-center items-center sm:mt-40 mt-40 flex flex-col gap-6   
+    slide-in-from-bottom-10 
     
   }
   .description-text{
@@ -146,12 +146,7 @@
   }
   .tools-container{
       @apply  p-2 border-2 border-[#B4B4B4] w-100 ml-10 sm:w-50 rounded-[10px]  transition delay-70 duration-200 ease-in-out hover:-translate-y-1 hover:scale-110 hover:border-cyan-300 sm:mr-5
-
-      
-
-
-
-
+      scale-75 sm:scale-100
 
   }
   .tool{
@@ -167,10 +162,10 @@
     @apply flex flex-col gap-3 sm:ml-9 ml-10 mb-15 sm:mt-20 mt-20 
   }
   .project-container{
-    @apply flex flex-col md:flex-row justify-center items-center gap-5
+    @apply flex flex-col md:flex-row justify-center items-center sm:gap-5
   }
   .project{
-    @apply bg-[#514f4f] dark:bg-[#333232] rounded-2xl p-5 m-15 sm:m-5
+    @apply bg-[#514f4f] dark:bg-[#333232] rounded-2xl p-5  sm:m-10 scale-50 sm:scale-100
   }
   .project-description{
     @apply flex flex-col
@@ -186,4 +181,18 @@
     @apply bg-cyan-400 h-10 w-30 rounded-full
     cursor-pointer transition delay-75 duration-100 ease-in-out hover:bg-cyan-300 font-medium
   }
+  .footer-container{
+    @apply sm:mt-20 mb-20 sm:flex sm:justify-evenly flex flex-col justify-center items-center gap-10
+  }
+  .socials{
+    @apply flex flex-col gap-7 justify-center items-center 
+  }
+  .insta{
+    @apply bg-[#484949] h-15 w-15 rounded-full flex flex-col justify-center items-center transition hover:-translate-y-1 hover:scale-110 
+    hover:bg-[#B4B4B4] dark:hover:text-black
+    text-white hover:text-black
+
+  }
+  
+  
 }

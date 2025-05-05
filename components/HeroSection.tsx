@@ -21,7 +21,7 @@ const HeroSection = () => {
           <div className="   hero-btns ">
            <Link href={'https://github.com/yatin-coder07'}>
            <button className="contact  ">Projects</button></Link>
-           <Link href={'/About'}>
+           <Link href={'#about'}>
            <button className="contact  ">Read More</button></Link>
             
           </div>
@@ -31,7 +31,7 @@ const HeroSection = () => {
             <img src={"/pfp.jpg"} alt="" className='rounded-full' />
         </div>
     </section>
-    <section id='about' className=' sm:mt-50 mt-10'>
+    <section id='about' className=' sm:mt-55 mt-15'>
         <div className='p-5 bg-linear-to-r from-[#D4D4D4] to-[#909090]   sm:m-10 m-10 md:text-[15px] md:font-medium rounded-2xl dark:text-black font-medium '>
            <p>
             Welcome! I am Yatin a Web Developement enthusiast, With a liking to <br />
@@ -48,10 +48,10 @@ const HeroSection = () => {
 
         <Tools/>
         <div className='gap-5 
-        mt-10 mb-10'>
+        mt-30 mb-10'>
           <Projects/>
         </div>
-        <div>
+        <div className='mt-40 mb-30'>
          <Footer/>
         </div>
         </>

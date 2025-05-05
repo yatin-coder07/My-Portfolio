@@ -5,7 +5,7 @@ const Projects = () => {
   return (
     <>
      <div className="text-4xl font-medium mt-30 mb-20 flex justify-center items-center ">
-            <h1>My Project <span className='text-[#B4B4B4]'>Highlights</span></h1>
+            <h1>My Project <span className='text-[#484949] dark:text[]'>Highlights</span></h1>
         </div>
     <section id='projects' className="project-container ">
 
