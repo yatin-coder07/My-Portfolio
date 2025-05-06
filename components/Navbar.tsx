@@ -7,7 +7,7 @@ const Navbar = () => {
     <section className='header-container'>
         <div className="ml-2">
            <Link href={"/"}>
-           <h1 className='text-2xl font-bold'>Yatin Sharma</h1>
+           <h1 className='sm:text-2xl text-[20px] font-bold'>Yatin Sharma</h1>
            </Link>
         </div>
         <div className="links">

@@ -126,7 +126,7 @@
     @apply flex justify-between items-center
   }
   .links{
-    @apply flex gap-4 justify-center items-center
+    @apply flex sm:gap-4 gap-3 justify-center items-center sm:text-[15px] text-[10px]
   }
   .hero-container{
     @apply sm:flex sm:flex-row justify-center items-center sm:mt-40 mt-40 flex flex-col gap-6   
@@ -145,7 +145,7 @@
    
   }
   .tools-container{
-      @apply  p-2 border-2 border-[#B4B4B4] w-100 ml-10 sm:w-50 rounded-[10px]  transition delay-70 duration-200 ease-in-out hover:-translate-y-1 hover:scale-110 hover:border-cyan-300 sm:mr-5
+      @apply  p-2 border-2 border-[#B4B4B4] w-100 sm:ml-10 sm:w-50 rounded-[10px]  transition delay-70 duration-200 ease-in-out hover:-translate-y-1 hover:scale-110 hover:border-cyan-300 sm:mr-20 
       scale-75 sm:scale-100
 
   }

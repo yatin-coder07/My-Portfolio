@@ -14,7 +14,7 @@ const Tools = () => {
           to create high-performing and exceptional websites.   
         </p>
     </div>
-     <section  className='grid sm:grid-cols-3 grid-cols-1 sm:mt-20 sm:mb-20 gap-4 md:grid-cols-4'>
+     <section  className='grid sm:grid-cols-3 grid-cols-1 sm:mt-20 sm:mb-20 gap-5 md:grid-cols-4 sm:mr-15'>
 
         
 
